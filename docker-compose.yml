@@ -20,7 +20,7 @@ services:
       - db
 
   wordpress:
-    domainname: conroe-lions.docker
+    domainname: wordpress.docker
     hostname: dev
     depends_on:
       - db
